@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma, sans-serif;
+}
+
+.container {
+    max-width: 940px;
+    margin: 50px auto 0 auto;
+    display: flex;
+}
+
+.primary-content {
+    width: 50%;
+}
+
+.set {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.set p {
+    color: lightpink;
+}
+
+.strike {
+    width: 60px;
+    margin-right: 20px;
+    border-bottom: 3px solid rgba(62, 62, 62, 0.7);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    width: 225px;
+    margin-right: 10px;
+    padding: 6px 20px;
+    list-style: none;
+    border: 1px solid rgb(187, 214, 237);
+    border-radius: 3px;
+}
+
+ul li a {
+    color: #3e3e3e;
+    text-decoration: none;
+    font-size: smaller;
+}
+.fa {
+    font-size: small;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.page {
+    width: 470px;
+    text-align: center;
+}
+
+.fa-google {
+    background: linear-gradient(180deg, red, orange, green, blue);
+    color: #fff;
+    /* padding: 2px; */
+    /* border-radius: 50%; */
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: #fff;
+    /* font-size: 13px; */
+    /* padding: 2px; */
+    /* border-radius: 50%; */
+}
+
+.form-set {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form-set label {
+    margin: 5px 10px 5px 0;
+    
+}
+.form-set input {
+    width: 225px;
+    margin: 5px 10px 5px 0;
+    padding: 8px;
+    margin-bottom: 30px;
+    background-color: rgb(244, 247, 249);
+    border: 1px solid rgba(215, 221, 224, 0.855);
+    border-radius: 3px;
+
+}
+label {
+    display: block;
+}
+
+fieldset {
+    border: none;
+}
+
+.password {
+    margin-bottom: 30px;
+    padding: 8px;
+}
+.password input {
+    /* width: 450px; */
+    width: 100%;
+    padding: 8px;
+    font-size: medium;
+    margin-left: 0;
+    background: rgb(244, 247, 249);
+    border: 1px solid rgba(215, 221, 224, 0.855);
+    border-radius: 3px;
+}
+.password label {
+    margin-bottom: 10px;
+}
+.label-box {
+    display: inline-block;
+}
+
+input [type=checkbox] {
+    display: inline-block;
+    background: rgb(244, 247, 249);
+    border: 1px solid rgba(215, 221, 224, 0.855);
+}
+
+span {
+    color: lightpink;
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.content-1 {
+    width: 700px;
+    height: 100vh;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/Images/takahiro-taguchi-McmRfLKw8yg-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.content-1 .first-p {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 250px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 280px;
+}
+
+.content-1 .second-p {
+    margin-top: 100px;
+}
+
+.content-2 {
+    width: 500px;
+    padding: 65px 30px 0 50px;
+}
+
+.content-2 h2 {
+    margin-top: 20px;
+}
+
+.content-2 p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #3e3e3e;
+    opacity: 0.25px;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    border: none;
+    border-bottom: 1px solid black;
+}
+input[type=submit] {
+    margin-top: 30px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 17px;
+}
+.content-2 .fa {
+    width: 80%;
+    margin-top: 5px;
+    padding: 10px 0;
+    border: 1px solid #b5b4b4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #191818;
+}
+.content-2 .second-p {
+    margin-top: 100px;
+}
+
+span {
+    color: lightseagreen;
+    font-size: 15px;
+}

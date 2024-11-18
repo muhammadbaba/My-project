@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    width: 60%;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+
+}
+
+h5 {
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+h5, h2 {
+    width: 700px;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+.p {
+    width: 700px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: small;
+    opacity: 0.60;
+}
+fieldset {
+    margin-bottom: 50px;
+    border: none;
+}
+
+.style {
+    width: 500px;
+    margin: 10px 0 0 85px;
+    padding: 10px;
+    padding-left: 45px;
+    border: 1px solid rgba(62, 62, 62, 0.35);
+    border-radius: 15px;   
+}
+.style:hover {
+    border-color: black;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -29px;
+    right: -125px;
+    padding-left: 50px;
+
+}
+
+.style .child {
+    height: 20px;
+    position: relative;
+    right: -88px;
+}
+
+.radio {
+    height: 20px;
+    position: relative;
+    top: -29px;
+    right: -130px;
+}
+
+.style-p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.content-2 {
+    width: 40%;
+    height: 120vh;
+    padding: 50px 50px;
+    background-image: url(/images/eberhard-grossgasteiger-J9NDmBVhN04-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.field {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.strike-2 {
+    width: 25px;
+    border-bottom: 2px solid black;
+    margin-right: 5px;
+}
+.last-p {
+    font-size: smaller;
+    color: black;
+    opacity: 0.45;
+}
